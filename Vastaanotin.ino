@@ -139,7 +139,7 @@ int ReceiveBaro_Alt(char *buf)
 }
 void ReceiveLuminess(char *buf)
 {
-	// luminous
+	// luminouss
 	lcd.setCursor(6, 0);
 	*(buf + 5) = '\0';
 	lcd.print((buf + 2));
